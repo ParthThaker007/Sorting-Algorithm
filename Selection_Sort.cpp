@@ -5,11 +5,6 @@
 // Space Complexity of Selection sort is : O(1)
 
 
-
-
-
-
-
 #include <iostream>
 using namespace std;
 
@@ -39,10 +34,11 @@ int main() {
     for(int i =0; i<Size ; i++){
         cin>>input[i];
     }
-	selectionSort(input, Size);
-	for(int i = 0; i < 6; i++) {
-		cout << input[i] << " ";
-			 
+    selectionSort(input, Size);
+    cout<<"Sorted Array:"<<endl;
+    for(int i = 0; i < 6; i++) {
+	    cout << input[i] << " ";
 	}
-	cout << endl;
+    cout << endl;
+  return 0;
 }
