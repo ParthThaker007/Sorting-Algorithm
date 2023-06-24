@@ -1,3 +1,12 @@
+// Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. 
+// This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+//Time Complexity of Bubble Sort is:
+// Best Case = O(n)   Average Case = O(n^2)  Worst Case = O(n^2)
+//Space Complexity of Bubble Sort is : O(1)
+
+
+
+
 #include<iostream>
 using namespace std;
 void Bubble_Sort(int arr[],int n){
